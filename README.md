@@ -44,22 +44,12 @@ CSE
 5) Conditional Routing: A top-level logic gate that checks the authentication status to serve either the Auth pages or the Dashboard.
 
 # API Endpoints 
-The application uses a centralized api.call(endpoint, options) method to handle data:
-Endpoint,Method,Action
-/auth/login,POST,Validates credentials and returns a mock JWT token.
-/auth/register,POST,Creates a user profile and signs them in.
-/tasks,GET,Fetches all tasks associated with the session.
-/tasks,POST,Adds a new task to the database.
-/tasks/:id,PUT,"Updates priority, status, or content of a task."
-/tasks/:id,DELETE,Removes a task from storage.
+<img width="655" height="186" alt="image" src="https://github.com/user-attachments/assets/125c7b58-e924-4497-9e5e-0d14efd2a940" />
+
 
 ## Project Structure
-src/
-├── components/     # Reusable UI elements (Button, Input, Alert)
-├── context/        # AuthProvider and Context logic
-├── services/       # Mock API and localStorage handlers
-├── App.js          # Main routing and state logic
-└── index.js        # Root entry point
+<img width="742" height="204" alt="image" src="https://github.com/user-attachments/assets/2db97ecf-4e77-46f5-ba27-a9979d37a0bc" />
+
 
 ## Usage Note
 This application currently uses LocalStorage for data persistence. This means your tasks and login session will persist even if you refresh the page, but they are unique to your specific browser and device.
