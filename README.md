@@ -1,4 +1,4 @@
-Modern Task Manager
+###Modern Task Manager
 A professional, full-stack inspired Task Management Dashboard built with React and Tailwind CSS. This application features a robust authentication system, real-time task filtering, and a simulated API backend using Browser LocalStorage.
 
 ## Made by 
