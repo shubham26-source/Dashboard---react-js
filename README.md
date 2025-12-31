@@ -4,7 +4,7 @@ A professional, full-stack inspired Task Management Dashboard built with React a
 ## Made by 
 Shubham Sharma 
 
-KJSC SOMAIYA MTECH 
+KJSC SOMAIYA MTECH : shubham26@somaiya.edu
 
 CSE
 
@@ -42,6 +42,27 @@ CSE
 4) UI Components: Atomic, reusable components (Button, Input, Alert) designed for design consistency and accessibility.
 
 5) Conditional Routing: A top-level logic gate that checks the authentication status to serve either the Auth pages or the Dashboard.
+
+<img width="635" height="675" alt="image" src="https://github.com/user-attachments/assets/ef5bee4d-1cd3-4080-91ef-a347e751950a" />
+
+
+<img width="1564" height="731" alt="image" src="https://github.com/user-attachments/assets/fcbc779e-db9a-47a7-9754-33861d204222" />
+
+
+Filter 
+
+<img width="1573" height="740" alt="image" src="https://github.com/user-attachments/assets/4f73f9f9-7f87-42db-bf8b-a403da5f6b51" />
+
+<img width="1568" height="721" alt="image" src="https://github.com/user-attachments/assets/6415b02d-739a-46b4-9931-968d2109e51f" />
+
+<img width="492" height="187" alt="image" src="https://github.com/user-attachments/assets/d1476f16-7795-42ad-a6f8-f76e94b2a7a4" />
+
+Task deleted 
+
+<img width="1571" height="690" alt="image" src="https://github.com/user-attachments/assets/30eb0ac0-499c-44be-a071-5671b0bf1323" />
+
+
+
 
 # API Endpoints 
 <img width="655" height="186" alt="image" src="https://github.com/user-attachments/assets/125c7b58-e924-4497-9e5e-0d14efd2a940" />
