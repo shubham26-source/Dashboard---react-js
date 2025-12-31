@@ -1,45 +1,47 @@
-###Modern Task Manager
+##Modern Task Manager
 A professional, full-stack inspired Task Management Dashboard built with React and Tailwind CSS. This application features a robust authentication system, real-time task filtering, and a simulated API backend using Browser LocalStorage.
 
 ## Made by 
 Shubham Sharma 
+
 KJSC SOMAIYA MTECH 
+
 CSE
 
 ## Features
-Secure Authentication: Complete Login and Registration flow with form validation and persistent sessions.
+1) Secure Authentication: Complete Login and Registration flow with form validation and persistent sessions.
 
-Full CRUD Operations: Create, Read, Update, and Delete tasks with a smooth modal interface.
+2) Full CRUD Operations: Create, Read, Update, and Delete tasks with a smooth modal interface.
 
-Task Categorization: Manage tasks by Priority (Low, Medium, High) and Status (Pending, In Progress, Completed).
+3) Task Categorization: Manage tasks by Priority (Low, Medium, High) and Status (Pending, In Progress, Completed).
 
-Real-time Search & Filter: Instantly find tasks using the search bar or filter by status categories.
+4) Real-time Search & Filter: Instantly find tasks using the search bar or filter by status categories.
 
-Responsive UI: Clean, mobile-friendly design using Tailwind CSS and Lucide-React icons.
+5) Responsive UI: Clean, mobile-friendly design using Tailwind CSS and Lucide-React icons.
 
-Mock API Layer: Simulated asynchronous API calls with loading states to mimic real-world network behavior.
+6) Mock API Layer: Simulated asynchronous API calls with loading states to mimic real-world network behavior.
 
 ## Technical Stack
-Frontend: React (Hooks, Context API)
+1) Frontend: React (Hooks, Context API)
 
-Styling: Tailwind CSS (JIT mode)
+2) Styling: Tailwind CSS (JIT mode)
 
-Icons: Lucide-React
+3) Icons: Lucide-React
 
-State Management: React Context (Global Auth state)
+4) State Management: React Context (Global Auth state)
 
-Storage: LocalStorage API
+5) Storage: LocalStorage API
 
 ## Architecture Overview
-The application is built with a modular architecture to ensure the codebase remains clean and scalable:
+1) The application is built with a modular architecture to ensure the codebase remains clean and scalable:
 
-Auth Context: Centralizes the global user state. It provides login, register, and logout methods to all components via the useAuth hook.
+2) Auth Context: Centralizes the global user state. It provides login, register, and logout methods to all components via the useAuth hook.
 
-API Service Layer: A specialized api object that intercepts requests. It simulates database latency and manages data persistence in localStorage.
+3) API Service Layer: A specialized api object that intercepts requests. It simulates database latency and manages data persistence in localStorage.
 
-UI Components: Atomic, reusable components (Button, Input, Alert) designed for design consistency and accessibility.
+4) UI Components: Atomic, reusable components (Button, Input, Alert) designed for design consistency and accessibility.
 
-Conditional Routing: A top-level logic gate that checks the authentication status to serve either the Auth pages or the Dashboard.
+5) Conditional Routing: A top-level logic gate that checks the authentication status to serve either the Auth pages or the Dashboard.
 
 # API Endpoints 
 The application uses a centralized api.call(endpoint, options) method to handle data:
